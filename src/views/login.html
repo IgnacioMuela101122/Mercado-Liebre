@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercado Liebre</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/login.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="encabezado">
+      <img class="logo" src="/img/logo-mercado-liebre.svg" alt="logo mercado liebre" />
+      <div class="buscador">
+        <form action="#" method="post">
+          <div>
+            <label for="Buscar productos, marcas"></label>
+            <br>
+            <input type="text" placeholder="Buscar productos, marcas">
+          </div>
+          <i class="fas fa-search"></i>
+        </form>    
+      </div>        
+      <p class="texto-header 2"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+
+    </div>
+
+    <nav class="barra-nav">
+      <ul class="lista">
+        <li><a href="http://localhost:3000/Ofertas">Ofetas</a></li>
+        <li>
+          <a href="http://localhost:3000/Tiendas-Oficiales">Tiendas oficiales</a>
+        </li>
+        <li><a href="http://localhost:3000/Vender">Vender</a></li>
+        <li><a href="http://localhost:3000/Ayuda">Ayuda</a></li>
+      </ul>
+
+      <ul class="lista">
+        <li><a href="http://localhost:3000/Registro">Creá tu cuenta</a><i class="far fa-id-card"></i></li>
+        <li><a href="http://localhost:3000/login">Ingresá</a><i class="fas fa-sign-in-alt"></i></i></li>
+        <li><a href="http://localhost:3000/Mis-compras">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+      </ul>
+    </nav>
+    <div class="burger-menu">
+      <i class="fas fa-bars burger"></i></i>
+    </div>
+  </header>
+  <main>
+    <img class="home_img" src="img/img-home-banner.jpg" alt="imagen del home">
+    <form action="/login" method="post">
+        <div>
+            <label for="nombre_usuario"></label>
+            <input type="text" class="info" name="ususario" id="nombre_usuario" placeholder="Nombre de Usuario">
+        </div>
+        <div>
+            <label for="contraseña"></label>
+            <input type="password" class="info" name="contraseña" id="contraseña" placeholder="Contraseña">
+        </div>
+        <div class="boton">
+            <button type="submit"><a class="enviar" href="http://localhost:3000/">Enviar</a></button>
+        </div>
+
+    </form>
+  </main>
+  <footer>
+    <div class="pie">
+      <div class="columnas">
+        <i class="fas fa-credit-card icono_pie"></i>
+        <h5>Pagá con tarjeta o en efectivo</h5>
+        <p class="piee">
+          Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+          efectivo en puntos de pago. ¡Y siempre es seguro!
+        </p>
+      </div>
+      <div class="columnas">
+        <i class="fas fa-gift icono_pie"></i>
+        <h5>Envío gratis desde $ 2.500</h5>
+        <p class="piee">
+          Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+          miles de productos. Es un beneficio de Mercado Puntos.
+        </p>
+      </div>
+      <div class="columnas">
+        <i class="fas fa-user-shield icono_pie"></i>
+        <h5>Seguridad, de principio a fin</h5>
+        <p class="piee">
+          ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no
+          puedas hacer, porque estás siempre protegid@.
+        </p>
+      </div>
+    </div>
+    <div>
+      <p class="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>
